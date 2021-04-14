@@ -25,7 +25,7 @@ TARGET		:= $(BUILD)/$(notdir $(CURDIR))
 SOURCES		:= source
 INCLUDES	:= include
 DATA		:=
-MUSIC		:=
+MUSIC		:= maxmod_data
 
 #---------------------------------------------------------------------------------
 # options for code generation
