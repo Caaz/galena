@@ -8,7 +8,8 @@ This project relies on butano! We've implemented submodules to cover gathering t
 - Clone or pull the code down
 - `git clone https://github.com/Caaz/galena.git`
 - Gather the submodule dependencies
-- `git submodules init`
+- `git submodule init`
+- `git submodule update`
 
 ## Building
 
