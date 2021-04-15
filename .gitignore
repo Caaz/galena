@@ -1,3 +1,6 @@
-thirdparty
+# buildfiles
 build
+
+# GBA Builds, and save files that may wind up somewhere, I suppose.
+dist
 *.sav

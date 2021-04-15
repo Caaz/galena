@@ -16,17 +16,17 @@
 #
 # All directories are specified relative to the project directory where the makefile is found.
 #---------------------------------------------------------------------------------------------------------------------
-TARGET      :=  $(notdir $(CURDIR))
+TARGET      :=  dist/$(notdir $(CURDIR))
 BUILD       :=  build
-LIBBUTANO   :=  thirdparty/butano
+LIBBUTANO   :=  vendor/butano/butano
 PYTHON      :=  python
-SOURCES     :=  src thirdparty/common/src
-INCLUDES    :=  include thirdparty/common/include
+SOURCES     :=  src
+INCLUDES    :=  include
 DATA        :=
-GRAPHICS    :=  graphics thirdparty/common/graphics
-AUDIO       :=  audio thirdparty/common/audio
-ROMTITLE    :=  BUTANO KEYPD
-ROMCODE     :=  SBTP
+GRAPHICS    :=  graphics
+AUDIO       :=  audio
+ROMTITLE    :=  GALENA
+ROMCODE     :=  GLNA
 USERFLAGS   :=
 
 #---------------------------------------------------------------------------------------------------------------------
