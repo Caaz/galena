@@ -13,7 +13,7 @@ This project relies on butano! We've implemented submodules to cover gathering t
 
 ## Building
 
-`make` should get the job done. perhaps add the `-j#` flag, with `#` being the number of cores you've got to compile with.
+`make` should get the job done. perhaps add the `-j#` flag, with `#` being the number of cores you've got to compile with. You may need to create a folder named `dist` before building. 
 
 ## Todo
 
