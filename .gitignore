@@ -4,3 +4,6 @@ build/*
 # GBA Builds, and save files that may wind up somewhere, I suppose.
 dist/*
 *.sav
+
+# Keep around the keepfiles, that's the point.
+!.keep
